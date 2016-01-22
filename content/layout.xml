@@ -1,0 +1,10 @@
+<vsplit ratio="0.7">
+	<hsplit ratio="0.3">
+		<vstack filter="xterm">
+		</vstack>
+		<single>
+		</single>
+	</hsplit>
+	<single filter="node">
+	</single>
+</vsplit>

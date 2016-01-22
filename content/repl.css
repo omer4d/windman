@@ -1,0 +1,45 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.console-log-line {
+    font-family: monospace;
+    margin:2px;
+}
+
+.console-error-line {
+    font-family: monospace;
+    color: #EF0000;
+    margin:2px;
+}
+
+#input-row {
+    display: table-row;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin-bottom:0px;
+}
+
+#cursor {
+    font-family: monospace;
+    color: white;
+    background-color: #970000;
+    display: table-cell;
+}
+
+#input-field {
+    font-family: monospace;
+    outline: none;
+    display: table-cell;
+    min-width: 10px;
+    width: 100%;
+}
+
+#console {
+  height: 100%;
+  overflow:scroll;
+  background-color: white;
+}
